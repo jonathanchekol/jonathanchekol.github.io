@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Jonathan Chekol</title>
+<style>
+     h1 {
+       background-color: lightblue;
+     }
+     h2 {
+       background-color: rgb(142, 191, 66);
+     }
+     p {
+       background-color: hsl(300, 100%, 25%);
+     }
+     span {
+       background-color: rgba(255, 127, 80, 0.58);
+     }
+   </style>
+ </head>
+ <body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('jc_profile.jpg');
+  min-height: 100%;
+}
+</style>
+</head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#home"class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#resume" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Resume</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Jonathan Chekol</b></h1>
+    <p>Audio Video Media Production Student at HCC.</p>
+           <i class="jc_resume.pdf"></i> Download Resume
+    </button>
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Portfolio</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="hcc_athletics_department.jpg" style="width:100%">
+        <img src=" sports_highlight_ maker.jpg" style="width:100%">
+        <img src="hcc_times.jpg" style="width:100%">
+          <img src="sports_writing.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="tsiant_insituite.jpg" style="width:100%">
+        <img src="voluntering_autistic_students.jpg" style="width:100%">
+        <img src="photomontage.jpg" style="width:100%">
+        <img src="adobe.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>Portfolio</h2>
+    <hr class="w3-opacity">
+    <p>Jonathan Chekol is currently a junior at Howard Community College (HCC) majoring in Audio Video Media Production. He is a kind, friendly, highly organized person with attention to detail. Sports broadcasting has been a dream job for Jonathan since childhood. As a result, he has an in-depth knowledge of sports such as football, basketball and soccer.  With a voice made for broadcasting, Jonathan hopes to make his career as a sports commentator.
+Jonathan worked last year for the Howard Community College (HCC) Athletics Department as a Multimedia Sports Communication Intern. In this capacity, he created game highlights, and promotional pictures for websites, coordinated with coaches to write profiles for individual student-athletes and other duties that were assigned to me by the manager of sports information. Chekol currently works for the HCC Times as a sports and campus profile writer. As a sports writer, he covers events that are going on nationally and on-campus and as a campus profile he covers different programs of the campus.
+Outside of sports projects, Chekol volunteers in his community. He volunteered in the Ethiopian Community Support Group in Olney, MD as a peer mentor. He helped with team building exercises, cleaned the property before and after an event. Jonathan has volunteered for Tsinat Institute in Silver Spring, MD, working with students with autism supporting them to interact in a positive and meaningful way.
+Chekol is currently a reading and writing tutor where he is assisting students to understand the text by giving context clues, reading comprehension questions and the end of unit tests.
+    </p>
+        <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Columbia, MD</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 443-474-6076</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email:jonathanchekol@gmail.com</p>
+    </div>
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+      <i class="fa fa-instagram w3-hover-opacity"></i> https://www.instagram.com/jonathanchekol/
+      <i class="fa fa-linkedin w3-hover-opacity"></i> https://www.linkedin.com/in/jonathan-chekol/
+        <i class="fa fa-HCC Times w3-hover-opacity"></i> https://hcctimes.org/staff_name/jonathan-chekol/
