@@ -3,7 +3,7 @@
 <head>
 <title>W3.CSS Jonathan Chekol</title>
 <style>
-    h1 {
+     h1 {
        background-color: lightblue;
      }
      h2 {
@@ -15,6 +15,21 @@
      span {
        background-color: rgba(255, 127, 80, 0.58);
      }
+   </style>
+ </head>
+ <body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url('jc_profile.jpg');
   min-height: 100%;
 }
@@ -33,7 +48,7 @@
     <i class="fa fa-remove"></i>
   </a>
   <div class="w3-bar-block w3-center">
-    <a href="#home" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#home"class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
     <a href="#resume" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Resume</a>
     <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
@@ -50,8 +65,7 @@
   <header class="w3-container w3-center" style="padding:128px 16px" id="home">
     <h1 class="w3-jumbo"><b>Jonathan Chekol</b></h1>
     <p>Audio Video Media Production Student at HCC.</p>
-    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
-      <a href="jc_resume.pdf"></i>
+           <i class="jc_resume.pdf"></i> Download Resume
     </button>
   </header>
 
@@ -81,34 +95,14 @@
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
-    <h2>Profolio</h2>
+    <h2>Portfolio</h2>
     <hr class="w3-opacity">
     <p>Jonathan Chekol is currently a junior at Howard Community College (HCC) majoring in Audio Video Media Production. He is a kind, friendly, highly organized person with attention to detail. Sports broadcasting has been a dream job for Jonathan since childhood. As a result, he has an in-depth knowledge of sports such as football, basketball and soccer.  With a voice made for broadcasting, Jonathan hopes to make his career as a sports commentator.
 Jonathan worked last year for the Howard Community College (HCC) Athletics Department as a Multimedia Sports Communication Intern. In this capacity, he created game highlights, and promotional pictures for websites, coordinated with coaches to write profiles for individual student-athletes and other duties that were assigned to me by the manager of sports information. Chekol currently works for the HCC Times as a sports and campus profile writer. As a sports writer, he covers events that are going on nationally and on-campus and as a campus profile he covers different programs of the campus.
 Outside of sports projects, Chekol volunteers in his community. He volunteered in the Ethiopian Community Support Group in Olney, MD as a peer mentor. He helped with team building exercises, cleaned the property before and after an event. Jonathan has volunteered for Tsinat Institute in Silver Spring, MD, working with students with autism supporting them to interact in a positive and meaningful way.
 Chekol is currently a reading and writing tutor where he is assisting students to understand the text by giving context clues, reading comprehension questions and the end of unit tests.
     </p>
-    <h3 class="w3-padding-16">My Skills</h3>
-    <p class="w3-wide">Writing</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
-    </div>
-    <p class="w3-wide">Sports Communcation</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
-    </div>
-    <p class="w3-wide">Tutoring</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
-    </div><br>
- <p class="w3-wide">Voluntering</p>
-    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
-      <div class="w3-quarter w3-section">
-
-  <!-- End About Section -->
-  </div>
-
-  <!-- Contact Section -->
+        <!-- Contact Section -->
   <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
     <h2>Contact Me</h2>
     <hr class="w3-opacity">
@@ -118,42 +112,8 @@ Chekol is currently a reading and writing tutor where he is assisting students t
       <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 443-474-6076</p>
       <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email:jonathanchekol@gmail.com</p>
     </div>
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+      <i class="fa fa-instagram w3-hover-opacity"></i> https://www.instagram.com/jonathanchekol/
+      <i class="fa fa-linkedin w3-hover-opacity"></i> https://www.linkedin.com/in/jonathan-chekol/
+        <i class="fa fa-HCC Times w3-hover-opacity"></i> https://hcctimes.org/staff_name/jonathan-chekol/
 
-    <!-- Image of location/map -->
-    <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
-
-    <p>Lets get in touch. Send me a message:</p>
-    <form action="/action_page.php" target="_blank">
-       <i class="fa fa-instagram w3-hover-opacity"></i> https://www.instagram.com/jonathanchekol/
-    <i class="fa fa-linkedin w3-hover-opacity"></i> https://www.linkedin.com/in/jonathan-chekol/
-      <i class="fa fa-HCC Times w3-hover-opacity"></i> https://hcctimes.org/staff_name/jonathan-chekol/
-        
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
-  </div>
-
-</div>  
-  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
-  
-  </footer>
-
-<!-- END PAGE CONTENT -->
-</div>
-
-<script>
-// Open and close sidebar
-function openNav() {
-  document.getElementById("mySidebar").style.width = "60%";
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function closeNav() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
-
-</body>
-</html>
